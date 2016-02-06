@@ -173,6 +173,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.audio.fluence.voicerec=false \
     persist.audio.fluence.speaker=false \
     ro.audio.monitorRotation=true
+	
+# drmservice props
+PRODUCT_PROPERTY_OVERRIDES += \
+    drm.service.enabled=true
 
 # Audio effects
 PRODUCT_PACKAGES += \
