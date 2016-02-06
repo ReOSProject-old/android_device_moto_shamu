@@ -247,6 +247,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.apm_sim_not_pwdn=1 \
     persist.radio.no_wait_for_card=1 \
     persist.radio.sib16_support=1
+    persist.radio.alt_mbn_name=tmo_alt.mbn
 
 # WiFi calling
 PRODUCT_PROPERTY_OVERRIDES += \
